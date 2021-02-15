@@ -1,0 +1,33 @@
+  <div class="main">
+    <!-- Toolbar -->
+    <header class="navigation" role="navigation">
+      <div class="navigation-top">
+        <div class="name">Mayank Saxena</div>
+        <img routerLink="/" title="Click to go to homepage" class="profile" src="assets/profile.jpg" alt="">
+        <div class="intro">
+          <p>Hi, I'm Mayank. I'm a full stack software developer and a Blockchain enthusiast.</p>
+        </div>
+        <div class="links">
+          <img title="https://www.linkedin.com/in/mayanksaxena001/"
+            onClick="parent.open('https://www.linkedin.com/in/mayanksaxena001/')" src="assets/linkedin.svg" alt="" />
+          <img title="https://github.com/mayanksaxena001" onClick="parent.open('https://github.com/mayanksaxena001')"
+            src="assets/github.png" alt="" />
+          <img title="https://stackoverflow.com/users/8324190/mayank-saxena"
+            onClick="parent.open('https://stackoverflow.com/users/8324190/mayank-saxena')" src="assets/so-icon.svg"
+            alt="" />
+          <img title="https://twitter.com/MAYANKSAXENA001" onClick="parent.open('https://twitter.com/MAYANKSAXENA001')"
+            src="assets/twitter.svg" alt="" />
+        </div>
+      </div>
+      <div class="navigations-links">
+        <label routerLink="/">About Me</label>
+        <label routerLink="/portfolio">Portfolio</label>
+        <label routerLink="/blog">Blog</label>
+        <label routerLink="/resume">Resume</label>
+        <label routerLink="/contact">Contact</label>
+      </div>
+    </header>
+    <div class="router">
+      <router-outlet></router-outlet>
+    </div>
+  </div>

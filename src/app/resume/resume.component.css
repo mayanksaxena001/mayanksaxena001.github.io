@@ -1,0 +1,50 @@
+* {
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.download {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  background-color: #fafafa;
+  justify-content: center;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  width: 215px;
+  background-color: #54b689;
+  color: white;
+  align-self: center;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bolder;
+  font-size: 15px;
+  height: 20%;
+}
+
+.box:hover {
+  opacity: 0.6;
+  transition: opacity .55s ease-in-out;
+  -moz-transition: opacity .55s ease-in-out;
+  -webkit-transition: opacity .55s ease-in-out;
+  cursor: pointer;
+}
+
+.resume {
+  flex: 1;
+  overflow-y: auto;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
