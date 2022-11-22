@@ -1,0 +1,30 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    justify-content: center;
+    margin: 10%;
+    align-self: center;
+  }
+  .link-box {
+    display: flex;
+    width: 100%;
+    /* height: 100%; */
+  }
+
+  
+.box {
+    display: flex;
+    justify-content: space-around;
+    /* height: 50px; */
+    width: 110px;
+    background-color: #54b689;
+    color: white;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 15px;
+  }
